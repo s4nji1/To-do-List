@@ -1,25 +1,24 @@
-/* style.css */
-
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #333;
+    color: whitesmoke;
 }
 
 h2 {
     text-align: center;
-    margin-top: 20px;
-    color: #4CAF50;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: whitesmoke 1px solid;
 }
 
 #todoList {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #534653;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -29,7 +28,7 @@ h2 {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #4CAF50;
+    background-color: #856088;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -39,7 +38,7 @@ h2 {
 }
 
 #addButton:hover {
-    background-color: #45a049;
+    background-color: #221225;
 }
 
 .task {
@@ -48,6 +47,7 @@ h2 {
     align-items: center;
     padding: 10px;
     margin-bottom: 10px;
+    color: black;
     background-color: #f1f1f1;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -72,12 +72,12 @@ h2 {
 }
 
 .completeTask {
-    background-color: #4CAF50;
+    background-color: #856088;
     color: #fff;
 }
 
 .completeTask:hover {
-    background-color: #45a049;
+    background-color: #221225;
 }
 
 .deleteTask {
@@ -86,5 +86,5 @@ h2 {
 }
 
 .deleteTask:hover {
-    background-color: #e53935;
+    background-color: #8d110f;
 }
